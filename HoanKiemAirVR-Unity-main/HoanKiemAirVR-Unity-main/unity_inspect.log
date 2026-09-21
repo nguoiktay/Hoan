@@ -1,0 +1,524 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Connection attempt to the License Client on channel: "LicenseClient-nguoiktay" failed because channel doesn't exist; code: "0x80000002"
+[Licensing::Module] Successfully launched the LicensingClient (PId: 22900)
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-nguoiktay"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.12.1+9338cad
+  Session Id:              8fa35fe260ff4f20ba8cded1c759c6d8
+  Correlation Id:          ae83f93c10b3c98c4f5c73873669d6d7
+  External correlation Id: 337194185633022798
+  Machine Id:              83sQP1oGRp38ZSo7TIrSHxoORa0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nguoiktay" (connect: 0.58s, validation: 0.04s, handshake: 1.05s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-nguoiktay-notifications"
+[Licensing::Module] Connected to LicensingClient (PId: 22900, launch time: 0.00, total connection time: 1.67s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Error: Code 500 while processing request (status: Unable to update licenses. Errors: No ULF license found.,Token not found in cache)
+[Licensing::Client] Error: Code 500 while updating license in client (status: Unable to update licenses. Errors: No ULF license found.,Token not found in cache)
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16147 MB
+[Licensing::Client] Successfully resolved entitlements
+[Licensing::Module] Serial number assigned to: "18968385848521-UnityPersXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
+-batchmode
+-projectPath
+d:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main
+-executeMethod
+InspectSceneRoadLayout.Run
+-logFile
+unity_inspect.log
+Successfully changed project path to: d:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main
+D:/HoanKiemAirVR-Unity-main/HoanKiemAirVR-Unity-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26628] Host "[IP] 192.168.92.1 [Port] 55496 [Flags] 2 [Guid] 357604123 [EditorId] 357604123 [Version] 1048832 [Id] WindowsEditor(7,171A84E3AF2FD73) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26628] Host "[IP] 192.168.92.1 [Port] 55496 [Flags] 2 [Guid] 357604123 [EditorId] 357604123 [Version] 1048832 [Id] WindowsEditor(7,171A84E3AF2FD73) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-4616" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlements
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 61 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.0.5 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.collab-proxy@2.0.5)
+    com.unity.nuget.newtonsoft-json@3.0.1 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.1)
+    com.unity.probuilder@5.1.1 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.probuilder@5.1.1)
+    com.unity.textmeshpro@3.0.6 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.textmeshpro@3.0.6)
+    com.unity.timeline@1.7.5 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.timeline@1.7.5)
+    com.unity.visualscripting@1.8.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.visualscripting@1.8.0)
+    com.unity.xr.interaction.toolkit@2.4.3 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.xr.interaction.toolkit@2.4.3)
+    com.unity.xr.oculus@4.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.xr.oculus@4.0.0)
+    com.unity.xr.management@4.3.3 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.xr.management@4.3.3)
+    com.unity.inputsystem@1.6.1 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.inputsystem@1.6.1)
+    com.unity.mathematics@1.2.6 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.mathematics@1.2.6)
+    com.unity.xr.core-utils@2.2.1 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.xr.core-utils@2.2.1)
+    com.unity.xr.legacyinputhelpers@2.1.10 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10)
+    com.unity.burst@1.8.7 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.burst@1.8.7)
+    com.unity.settings-manager@2.0.1 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.settings-manager@2.0.1)
+    com.unity.ide.visualstudio@2.0.18 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.ide.visualstudio@2.0.18)
+    com.unity.ide.rider@3.0.24 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.ide.rider@3.0.24)
+    com.unity.ide.vscode@1.2.5 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.editorcoroutines@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.editorcoroutines@1.0.0)
+    com.unity.performance.profile-analyzer@1.2.2 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2)
+    com.unity.test-framework@1.1.33 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.test-framework@1.1.33)
+    com.unity.testtools.codecoverage@1.2.4 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4)
+    com.unity.searcher@4.9.2 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.searcher@4.9.2)
+    com.unity.ext.nunit@1.0.6 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+  Built-in packages:
+    com.unity.feature.development@1.0.1 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.feature.development@1.0.1)
+    com.unity.render-pipelines.universal@14.0.8 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.render-pipelines.universal@14.0.8)
+    com.unity.ugui@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+    com.unity.render-pipelines.core@14.0.8 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.render-pipelines.core@14.0.8)
+    com.unity.shadergraph@14.0.8 (location: D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.shadergraph@14.0.8)
+[Subsystems] Looking for new subsystems at path D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.xr.oculus@4.0.0
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.oculus@4.0.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/HoanKiemAirVR-Unity-main/HoanKiemAirVR-Unity-main/Assets
+[Subsystems] Discovering subsystems at path D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.xr.oculus@4.0.0
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.oculus@4.0.0/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.0.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.0.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.oculus@4.0.0/Runtime/UnitySubsystemsManifest.json.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.67 seconds
+Refreshing native plugins compatible for Editor in 11.31 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 2.58 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/HoanKiemAirVR-Unity-main/HoanKiemAirVR-Unity-main/Assets
+[Subsystems] Discovering subsystems at path D:\HoanKiemAirVR-Unity-main\HoanKiemAirVR-Unity-main\Library\PackageCache\com.unity.xr.oculus@4.0.0
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.oculus@4.0.0/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.0.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.oculus@4.0.0/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.oculus@4.0.0/Runtime/UnitySubsystemsManifest.json.
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.16.1062
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+[Licensing::Client] Successfully resolved entitlements
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004366 seconds.
+- Loaded All Assemblies, in  0.252 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.248 seconds
+Domain Reload Profiling: 499ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (64ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (90ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (201ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlements
+Application.AssetDatabase Initial Refresh Start
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/HoanKiemAirVR-Unity-main/HoanKiemAirVR-Unity-main
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 0s258ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[1018/1364  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.21 seconds), 1 items updated, 1017 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: D:/HoanKiemAirVR-Unity-main/HoanKiemAirVR-Unity-main
+ExitCode: 0 Duration: 0s856ms
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Data\bee_backend.exe --dont-print-to-structured-log --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: D:/HoanKiemAirVR-Unity-main/HoanKiemAirVR-Unity-main
+ExitCode: 0 Duration: 2s163ms
+Finished compiling graph: 1368 nodes, 21499 flattened edges (16833 ToBuild, 242 ToUse), maximum node priority 1411
+[ 699/1364  0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[1017/1364  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1360/1364  1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Editor\WaypointPathPainter.cs(26,30): warning CS0414: The field 'WaypointPathPainter.pointSpacingMin' is assigned but its value is never used
+
+Assets\Editor\WaypointPathPainter.cs(27,29): warning CS0414: The field 'WaypointPathPainter.autoSnapGround' is assigned but its value is never used
+[1361/1364  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 121 defines and 333 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1362/1364  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1363/1364  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (2.14 seconds), 6 items updated, 1364 evaluated
+Assets\Editor\WaypointPathPainter.cs(26,30): warning CS0414: The field 'WaypointPathPainter.pointSpacingMin' is assigned but its value is never used
+Assets\Editor\WaypointPathPainter.cs(27,29): warning CS0414: The field 'WaypointPathPainter.autoSnapGround' is assigned but its value is never used
+AssetDatabase: script compilation time: 3.781601s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.031 seconds
+Refreshing native plugins compatible for Editor in 6.50 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Start importing Assets/Editor/InspectSceneRoadLayout.cs using Guid(bdcb611bcb5c39540958fdb033c7b27e) Importer(-1,00000000000000000000000000000000)  -> (artifact id: '1d1a046e69a9a7d1d20dddb6df5c3682') in 0.029732 seconds
+Refreshing native plugins compatible for Editor in 5.89 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+[XR] OculusXRPlugin: registering subsystems
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] Oculus Input lifecycle provider registered.
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus input
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] OVRP version 1.88.0
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.501 seconds
+Domain Reload Profiling: 4529ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (835ms)
+		LoadAssemblies (495ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (341ms)
+				TypeCache.ScanAssembly (326ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (2856ms)
+			ProcessInitializeOnLoadMethodAttributes (233ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Start importing Assets/upgrade_runner_status.txt using Guid(230406f8bea2e3240a564420177de14f) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'fe7f658276daaa63fd61b8db1b63991b') in 0.025649 seconds
+Refreshing native plugins compatible for Editor in 13.87 ms, found 9 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Asset Pipeline Refresh (id=00782d1b157794f438396a91707ca73e): Total: 11.163 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=2172 ms
+		Asset DB Callback time: managed=465 ms, native=20 ms
+		Scripting: domain reloads=1, domain reload time=4656 ms, compile time=3782 ms, other=62 ms
+		Project Asset Count: scripts=10375, non-scripts=5183
+		Asset File Changes: new=2, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.282ms
+	ApplyChangesToAssetFolders: 0.068ms
+	Scan: 87.661ms
+	OnSourceAssetsModified: 2.388ms
+	GetAllGuidsForCategorization: 3.904ms
+	CategorizeAssets: 458.769ms
+	ImportOutOfDateAssets: 3703.622ms (-219.251ms without children)
+		ImportManagerImport: 72.986ms (14.626ms without children)
+			ImportInProcess: 58.354ms
+			UpdateCategorizedAssets: 0.006ms
+		CompileScripts: 3781.726ms
+		ReloadNativeAssets: 0.072ms
+		UnloadImportedAssets: 51.108ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 11.948ms
+		InitializingProgressBar: 0.028ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.003ms
+		OnDemandSchedulerStart: 5.000ms
+	PostProcessAllAssets: 462.789ms
+	Hotreload: 20.598ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.002ms
+	UnloadStreamsBegin: 3.646ms
+	PersistCurrentRevisions: 2.051ms
+	UnloadStreamsEnd: 0.161ms
+	GenerateScriptTypeHashes: 31.016ms
+	Untracked: 6416.948ms
+Application.AssetDatabase Initial Refresh End
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Scanning for USB devices : 1.187ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlements
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-HKAir v2
+ProgressiveSceneManager::Cancel()
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 134 unused Assets / (0.9 MB). Loaded Objects now: 8754.
+Memory consumption went from 236.0 MB to 235.1 MB.
+Total: 6.833200 ms (FindLiveObjects: 0.660000 ms CreateObjectMapping: 0.422100 ms MarkObjects: 5.262700 ms  DeleteObjects: 0.487100 ms)
+
+Opening scene 'Assets/Scenes/HoanKiem.unity'
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/HoanKiem.unity'
+	Deserialize:            1483.379 ms
+	Integration:            793.931 ms
+	Integration of assets:  48.481 ms
+	Thread Wait Time:       -33.571 ms
+	Total Operation Time:   2292.220 ms
+Unloading 3 unused Assets / (1.9 KB). Loaded Objects now: 139185.
+Memory consumption went from 388.4 MB to 388.4 MB.
+Total: 24.307200 ms (FindLiveObjects: 11.798500 ms CreateObjectMapping: 2.891900 ms MarkObjects: 9.402400 ms  DeleteObjects: 0.213500 ms)
+
+=== INSPECT SCENE ROAD & BUILDING LAYOUT ===
+full_roads found! Bounds: Center=(620.18, -1.45, -772.83), Min=(538.32, -2.60, -949.24), Max=(702.04, -0.29, -596.43), Size=(163.72, 2.31, 352.81)
+West Road (Z ~ -750): Min X=561.43, Max X=575.34, Width=13.91m (Verts: 25)
+East Road (Z ~ -750): Min X=674.89, Max X=682.67, Width=7.78m (Verts: 25)
+North Road (X ~ 620): Min Z=-686.23, Max Z=-613.88, Depth=72.35m (Verts: 85)
+South Road (X ~ 620): Min Z=-922.34, Max Z=-807.95, Depth=114.39m (Verts: 79)
+
+--- LANDMARKS & GENERATED BUILDINGS IN SCENE ---
+'ToaNha_VNPT_Hanoi': Pos=(714.15, -0.49, -710.00), Rot=(0.00, 270.00, 0.00), Bounds Center=(716.95, 18.46, -688.00), Size=(0.08, 0.60, 0.13), Min=(716.91, 18.16, -688.07), Max=(716.99, 18.76, -687.94)
+'Red_Bridge': Pos=(643.24, -0.39, -664.38), Rot=(0.00, 0.00, 0.00), Bounds Center=(643.24, -0.60, -664.42), Size=(24.31, 6.46, 2.68), Min=(631.09, -3.83, -665.76), Max=(655.40, 2.63, -663.08)
+'WaterSurface_Mesh': Pos=(620.00, -1.02, -772.50), Rot=(0.00, 0.00, 0.00), Bounds Center=(620.00, -1.02, -772.50), Size=(190.00, 0.00, 390.00), Min=(525.00, -1.02, -967.50), Max=(715.00, -1.02, -577.50)
+'ToaNha_HamCaMap_CityView': Pos=(610.00, -0.49, -576.00), Rot=(0.00, 0.00, 0.00), Bounds Center=(610.00, 1.76, -576.00), Size=(32.00, 4.50, 20.00), Min=(594.00, -0.49, -586.00), Max=(626.00, 4.01, -566.00)
+'ToaSoan_BaoHanoiMoi_44LeThaiTo': Pos=(528.00, -0.49, -710.00), Rot=(0.00, 270.00, 0.00), Bounds Center=(528.00, 6.01, -710.00), Size=(16.00, 13.00, 26.00), Min=(520.00, -0.49, -723.00), Max=(536.00, 12.51, -697.00)
+'KhachSan_Apricot_Hotel': Pos=(524.50, -0.49, -780.00), Rot=(0.00, 270.00, 0.00), Bounds Center=(524.50, 10.51, -780.00), Size=(20.00, 22.00, 36.00), Min=(514.50, -0.49, -798.00), Max=(534.50, 21.51, -762.00)
+'GocPho_TrangTienPlaza': Pos=(682.00, -0.49, -946.00), Rot=(0.00, 315.00, 0.00), Bounds Center=(682.00, 9.51, -946.00), Size=(33.94, 20.00, 33.94), Min=(665.03, -0.49, -962.97), Max=(698.97, 19.51, -929.03)
+'[HoanKiem_GreenRunningTrack]': Pos=(0.00, 0.00, 0.00), Rot=(0.00, 0.00, 0.00), Bounds Center=(621.43, -0.47, -770.02), Size=(157.75, 0.00, 342.63), Min=(542.55, -0.47, -941.33), Max=(700.31, -0.47, -598.70)
+'[HoanKiem_RoadMarkings]': Pos=(0.00, 0.00, 0.00), Rot=(0.00, 0.00, 0.00), Bounds Center=(686.00, -0.47, -667.50), Size=(5.50, 0.00, 0.50), Min=(683.25, -0.47, -667.75), Max=(688.75, -0.47, -667.25)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+InspectSceneRoadLayout:Run () (at Assets/Editor/InspectSceneRoadLayout.cs:117)
+
+(Filename: Assets/Editor/InspectSceneRoadLayout.cs Line: 117)
+
+[Project] Loading completed in 20.274 seconds
+	Project init time: 				15.933 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.320 seconds
+		Asset Database init time: 		0.855 seconds
+		Global illumination init time: 	0.005 seconds
+		Assemblies load time: 			0.507 seconds
+		Unity extensions init time: 	0.009 seconds
+		Asset Database refresh time: 	0.000 seconds
+	Scene opening time: 			2.561 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1789923775400,"processId":4616,"projectLoad":20.2742991,"projectInit":15.9333584,"templateInit":0.0,"packageManagerInit":0.320127,"assetDatabaseInit":0.8546666,"globalIlluminationInit":0.0049096,"assembliesLoad":0.5073746,"unityExtensionsInit":0.0093954,"assetDatabaseRefresh":0.0,"sceneOpening":2.5612583}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1789923775400,"processId":4616,"editorVersion":"2022.3.5f1 (9674261d40ee)","branch":"2022.3/release","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+=== TRACING REAL ROAD, BENCHES & WALKWAY ===
+BENCH: Bench_1 -> Pos: (615.75, 0.26, -618.00), Forward: (1.00, 0.00, 0.00)
+BENCH: Bench_2 -> Pos: (616.70, 0.26, -618.00), Forward: (1.00, 0.00, 0.00)
+BENCH: Bench_-1 -> Pos: (613.85, 0.26, -618.00), Forward: (1.00, 0.00, 0.00)
+BENCH: Bench_0 -> Pos: (614.80, 0.26, -618.00), Forward: (1.00, 0.00, 0.00)
+BENCH: Bench (7) -> Pos: (625.70, -0.53, -618.54), Forward: (-0.98, 0.00, 0.19)
+BENCH: Bench (6) -> Pos: (670.03, -0.49, -700.19), Forward: (0.37, 0.00, 0.93)
+BENCH: Bench (4) -> Pos: (675.17, -0.49, -741.29), Forward: (-0.38, 0.00, 0.93)
+BENCH: Bench (7) -> Pos: (670.17, -0.49, -729.52), Forward: (-0.39, 0.00, 0.92)
+BENCH: Bench (4) -> Pos: (638.25, -0.53, -621.00), Forward: (-0.98, 0.00, 0.21)
+BENCH: Bench (6) -> Pos: (614.61, -0.49, -911.12), Forward: (0.75, 0.00, -0.66)
+BENCH: Bench (5) -> Pos: (673.74, -0.49, -737.90), Forward: (-0.39, 0.00, 0.92)
+BENCH: Benches 1 (4) -> Pos: (673.13, -0.63, -735.71), Forward: (0.99, 0.00, 0.14)
+BENCH: Bench (5) -> Pos: (634.64, -0.53, -620.28), Forward: (-0.98, 0.00, 0.19)
+BENCH: Benches 1 (8) -> Pos: (632.49, -0.67, -619.57), Forward: (0.44, 0.00, 0.90)
+BENCH: Bench (4) -> Pos: (575.38, -0.49, -844.95), Forward: (0.24, 0.00, -0.97)
+BENCH: Bench (6) -> Pos: (652.47, -0.49, -628.56), Forward: (-0.50, 0.00, 0.86)
+BENCH: Bench (6) -> Pos: (662.09, -0.49, -668.78), Forward: (-0.93, 0.00, 0.38)
+BENCH: Bench (7) -> Pos: (578.58, -0.49, -857.33), Forward: (0.25, 0.00, -0.97)
+BENCH: Bench (6) -> Pos: (590.69, -0.49, -882.87), Forward: (0.43, 0.00, -0.90)
+BENCH: Benches 1 -> Pos: (576.57, -0.63, -850.77), Forward: (-1.00, 0.00, 0.01)
+RENDERER: WaterSurface_Mesh -> Center: (620.00, -1.02, -772.50), Size: (190.00, 0.00, 390.00), Min: (525.00, -1.02, -967.50), Max: (715.00, -1.02, -577.50)
+RENDERER: WaterTank_2 -> Center: (619.00, 22.36, -571.00), Size: (1.80, 1.40, 1.40), Min: (618.10, 21.66, -571.70), Max: (619.90, 23.06, -570.30)
+RENDERER: WaterTank_1 -> Center: (601.00, 22.36, -571.00), Size: (1.80, 1.40, 1.40), Min: (600.10, 21.66, -571.70), Max: (601.90, 23.06, -570.30)
+RENDERER: full_roads -> Center: (620.18, -1.45, -772.83), Size: (163.72, 2.31, 352.81), Min: (538.32, -2.60, -949.24), Max: (702.04, -0.29, -596.43)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HoanKiemAirVR.Editor.RoadTracer:Trace () (at Assets/Editor/RoadTracer.cs:49)
+HoanKiemAirVR.Editor.RoadTracer/<>c:<.cctor>b__0_0 () (at Assets/Editor/RoadTracer.cs:15)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/RoadTracer.cs Line: 49)
+
+[SELECTED OBJECT] Nothing currently selected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HoanKiemAirVR.Editor.SelectedInspector/<>c:<.cctor>b__0_0 () (at Assets/Editor/SelectedInspector.cs:20)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/SelectedInspector.cs Line: 20)
+
+<color=#00FFAA>[HoanKiemCrowdSystem] Đã tạo 32 điểm Waypoints chạy bộ thành công! Bạn có thể chọn và kéo thả trực tiếp trong Scene View.</color>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HoanKiemAirVR.HoanKiemCrowdSystem:CreateJogWaypointsInScene () (at Assets/Scripts/HoanKiemCrowdSystem.cs:275)
+HoanKiemAirVR.HoanKiemCrowdSystem:ApplyCalibratedJogCircuit () (at Assets/Scripts/HoanKiemCrowdSystem.cs:285)
+HoanKiemAirVR.Editor.CrowdAutoRebake:ReBakeIfPresent () (at Assets/Editor/CrowdAutoRebake.cs:28)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Scripts/HoanKiemCrowdSystem.cs Line: 275)
+
+<color=#00FFAA>[HoanKiemCrowdSystem] Đã cập nhật đường chạy mới cho 4 người chạy bộ trong Scene!</color>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HoanKiemAirVR.HoanKiemCrowdSystem:UpdateActiveJoggerPaths () (at Assets/Scripts/HoanKiemCrowdSystem.cs:328)
+HoanKiemAirVR.HoanKiemCrowdSystem:ApplyCalibratedJogCircuit () (at Assets/Scripts/HoanKiemCrowdSystem.cs:287)
+HoanKiemAirVR.Editor.CrowdAutoRebake:ReBakeIfPresent () (at Assets/Editor/CrowdAutoRebake.cs:28)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Scripts/HoanKiemCrowdSystem.cs Line: 328)
+
+<color=#00FFAA>[HoanKiemCrowdSystem] Đã nắn chỉnh toàn bộ 32 điểm đường chạy bám sát mặt đường thực tế và tránh cây xanh!</color>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HoanKiemAirVR.HoanKiemCrowdSystem:ApplyCalibratedJogCircuit () (at Assets/Scripts/HoanKiemCrowdSystem.cs:288)
+HoanKiemAirVR.Editor.CrowdAutoRebake:ReBakeIfPresent () (at Assets/Editor/CrowdAutoRebake.cs:28)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Scripts/HoanKiemCrowdSystem.cs Line: 288)
+
+<color=#00FF88>[HoanKiemCrowdSystem] Đã sinh thành công 5 nhóm hoạt động sống động quanh Hồ Gươm!</color>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HoanKiemAirVR.HoanKiemCrowdSystem:SpawnCrowd () (at Assets/Scripts/HoanKiemCrowdSystem.cs:366)
+HoanKiemAirVR.Editor.CrowdAutoRebake:ReBakeIfPresent () (at Assets/Editor/CrowdAutoRebake.cs:29)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Scripts/HoanKiemCrowdSystem.cs Line: 366)
+
+<color=#00FFAA>[CrowdAutoRebake] Đã tự động nắn chỉnh 32 điểm Waypoints chạy bộ bám sát lòng đường thực tế (tránh cây xanh) và cập nhật đám đông!</color>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HoanKiemAirVR.Editor.CrowdAutoRebake:ReBakeIfPresent () (at Assets/Editor/CrowdAutoRebake.cs:34)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Editor/CrowdAutoRebake.cs Line: 34)
+
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at C:/Users/nguoi/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.015s, timestamps: [20.285 - 20.300]
+gi::BakeBackendSwitch: switching bake backend from 3 to 1.
+Setting up 4 worker threads for Enlighten.
+[00:00:03] Builtin Sky manager started.
+[00:00:03] Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.04s wallclock)
+[Oculus Settings] There are 2 outstanding Recommended fixes.
+For more information, go to <a href="OpenOculusProjectSettings">Edit > Project Settings > Oculus</a>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+OVRConfigurationTaskUpdaterSummary:Log () (at Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs:207)
+OVRConfigurationTaskUpdater:Complete () (at Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdater.cs:80)
+OVRConfigurationTaskProcessorQueue:Dequeue (OVRConfigurationTaskProcessor) (at Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:115)
+OVRConfigurationTaskProcessorQueue:Update () (at Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:136)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Oculus/VR/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs Line: 207)
+
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7
+Curl error 35: Cert verify failed. Certificate could not be verified (either omitted or unsupported). UnityTls error code: 7

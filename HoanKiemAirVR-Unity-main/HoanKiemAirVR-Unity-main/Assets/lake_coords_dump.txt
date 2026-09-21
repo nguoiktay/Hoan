@@ -1,0 +1,7 @@
+=== DUMP SCENE GROUND TRUTH COORDINATES ===
+
+--- BENCHES (0) ---
+
+--- STREETLIGHTS (0) ---
+
+--- OTHER ROADS / WATER (0) ---
